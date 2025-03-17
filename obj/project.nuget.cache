@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "12HW2DhXJNw=",
+  "dgSpecHash": "+uRrpa7CuHw=",
   "success": true,
   "projectFilePath": "/Users/kushikasenera/RazorPagesMovie/RazorPagesMovie.csproj",
   "expectedPackageFiles": [
@@ -87,6 +87,7 @@
     "/Users/kushikasenera/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.3/microsoft.entityframeworkcore.sqlite.9.0.3.nupkg.sha512",
     "/Users/kushikasenera/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.3/microsoft.entityframeworkcore.sqlite.core.9.0.3.nupkg.sha512",
     "/Users/kushikasenera/.nuget/packages/microsoft.entityframeworkcore.sqlserver/9.0.3/microsoft.entityframeworkcore.sqlserver.9.0.3.nupkg.sha512",
+    "/Users/kushikasenera/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.3/microsoft.entityframeworkcore.tools.9.0.3.nupkg.sha512",
     "/Users/kushikasenera/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.3/microsoft.extensions.caching.abstractions.9.0.3.nupkg.sha512",
     "/Users/kushikasenera/.nuget/packages/microsoft.extensions.caching.memory/9.0.3/microsoft.extensions.caching.memory.9.0.3.nupkg.sha512",
     "/Users/kushikasenera/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.3/microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
