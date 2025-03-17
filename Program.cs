@@ -1,7 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddDbContext<RazorPagesMovieContext>(options =>
+        options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesMovieContext")));
+}
+else
+{
+    builder.Services.AddDbContext<RazorPagesMovieContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("ProductionMovieContext")));
+}
+
 
 var app = builder.Build();
 
